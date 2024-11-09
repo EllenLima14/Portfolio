@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Ellen Lima</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ellen Lima</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header>
-    <div class="navbar">
-      <h1 class="logo">Ellen <span>Lima</span></h1>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">Ellen <span>Lima</span></h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Oi, sou a <span class="highlight">Ellen</span></h2>
-      <h3>Trabalho com <span class="highlight typing" id="typing-text"></span></h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quibusdam tempore iste veniam hic commodi autem
-        quod odit id, exercitationem perferendis impedit earum nulla reprehenderit nisi modi officiis rem corporis?</p>
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Oi, sou a <span class="highlight">Ellen</span></h2>
+            <h3>Trabalho com <span class="highlight typing" id="typing-text"></span></h3>
+            <p>Olá! Sou uma designer gráfico iniciante, apaixonada por transformar ideias em visuais criativos e impactantes. Tenho experiência em projetos de ilustração, onde procuro dar vida a conceitos únicos e personalizados, além de estar desenvolvendo habilidades na criação de websites funcionais e visualmente atraentes. Meu objetivo é sempre aliar estética e funcionalidade, entregando resultados que atendam às necessidades do cliente de maneira eficiente. </p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="buttons">
+                <button class="hire-btn">Contratar</button>
+                <button class="contact-btn">Contato</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="9eb6a529-9370-4211-a9bd-4922a07c5848.jpg" alt="Foto de Ellen">
+        </div>
+    </section>
 
-      <div class="social-links">
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-      </div>
+    <!-- Seção de Serviços -->
+    <section class="services">
+        <h2 class="section-title">Trabalhos</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Projeto Livro</h3>
+                <p> Redsign de capa e contracapa do livro "A fada" de Carolina Munhoz</p>
+                <img src="smartmockups_m2patx6a (1) (1).png" alt="Web Design"> 
+            </div>
+            <div class="service-card">
+                <h3> Identidade Visual</h3>
+                <p>Identidade Visual para Loja de roupa Corfortex</p>
+                <img src="Black and White Floral Wedding Thank You Gift Tag.jpg" alt="Web Development">
+            </div>
+            <div class="service-card">
+                <h3>Cartão de Visita</h3>
+                <p>Cartão de visita e identidade visual feito para um hortfruti</p>
+                <img src="Neutral Flat Lay Business Card Mockup Instagram Post.jpg" alt="Graphic Design">
+            </div>
+        </div>
+    </section>
 
-      <div class="buttons">
-        <button class="hire-btn">Hire</button>
-        <button class="contact-btn">Contact</button>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src="9eb6a529-9370-4211-a9bd-4922a07c5848.jpg">  
-    </div>
-  </section>
+         <!-- Seção de Contato -->
+    <section class="contact">
+        <h2 class="section-title">Contato</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Número" required>
+                <input type="text" placeholder="Assunto" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="send-btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
 
-
-  
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
-
 </html>
-
