@@ -10,7 +10,7 @@ body {
   background: linear-gradient(100deg, #000000, #080808, #383837);
   background-size: 300% 300%;
   animation: color 8s ease-in-out infinite;
-  color: #fff;
+  color: #ffffff;
 }
 
 @keyframes color {
